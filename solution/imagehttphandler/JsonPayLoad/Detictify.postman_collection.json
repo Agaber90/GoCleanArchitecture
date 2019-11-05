@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "5e31ebfd-0353-4fe5-b88a-f77bfa1f8e5c",
+		"name": "Detictify",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5060/images",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n   \"urls\":[ \r\n      \"https://detectify.com\",\r\n      \"http://www.example.com\",\r\n      \"https://stackoverflow.com\"\r\n   ]\r\n}"
+				},
+				"url": {
+					"raw": "localhost:5060/images",
+					"host": [
+						"localhost"
+					],
+					"port": "5060",
+					"path": [
+						"images"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "urls",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
