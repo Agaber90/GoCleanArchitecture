@@ -5,10 +5,10 @@ import (
 	"detectify/solution/models"
 )
 
-//Usecase represent the image's handler usecases
-type UseCase interface {
-	// AddImage(parCtx context.Context, parImg *models.DetectifyImage) error
-	AddImage(parCtx context.Context, parURLReq *models.SitesRequest) error
+//Repository Would be called on the Repofile to implement
+//the AddImageOperation, and get Image
+type Repository interface {
+	AddImage(parCtx context.Context, parImg *models.DetectifyImage) error
 	UpdateImage(parCtx context.Context, parImg *models.DetectifyImage) error
 	GetImageByID(parCtx context.Context, parID int64) (*models.DetectifyImage, error)
 }
