@@ -1,0 +1,21 @@
+{
+    "debug": true,
+    "server": {
+        "address": ":5060"
+    },
+    "context": {
+        "timeout": 1000
+    },
+    "database": {
+        "server": "127.0.0.1",
+        "port": "3306",
+        "userName": "root",
+        "password": "",
+        "databaseName": "detectify"
+    },
+    "folderConfig":{
+        "path":"",
+        "APIUser":"",
+        "APIKey":""
+    }
+}
