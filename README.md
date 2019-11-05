@@ -37,6 +37,8 @@ before start to explain this porject please
 # imagehttphandler
 <p> This is responsable to create the http request, this would take the a list of URLS then start to screenshot the urls and the image to the folder path, that would be add to the config.json file </P>
 
+<p><u><b>In this case I am using three packages</b></u></p>
+
 
 
   
