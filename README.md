@@ -38,6 +38,23 @@ before start to explain this porject please
 <p> This is responsable to create the http request, this would take the a list of URLS then start to screenshot the urls and the image to the folder path, that would be add to the config.json file </P>
 
 <p><u><b>In this case I am using three packages</b></u></p>
+<ol>
+   <li> go get github.com/labstack/echo </li>
+  <li> go get -u github.com/spf13/viper </li>
+  <li> go get github.com/pdfcrowd/pdfcrowd-go</li>
+  </ol>
+# echo
+<p> why echo, because this is provide a high performance, extensible, minimalist for a go web framework/p>
+  <p> for more information please check this url : https://echo.labstack.com/ </p>
+  
+ # viber
+ <p> This helo to read the value form the configuration file for more info please check this url : https://github.com/spf13/viper </p>
+ 
+ # pdfcrowd
+ <p> This API will help us to take the URL and convert it to imagem and unfortunately this is not free I am using a trial, so I add the API user along with API key to start test my task </p>
+ <p> Actually I used this package as I am not aware of a full browswer engine that written in GO and it has taken many times for investigation as you have mentioned that better to complete the task using Golang, I would have been to handle this using .NET and call it in Golang, but I have decided to complete it using the Golang. I would have been also to use headless chromes but it's not stright forword, that's why I used this package.</P>
+ 
+<p> After the screen have been taken, I moved it to a shared path folder with a UUID to create a unique name for the screenshot image, and then the Image data will be saved to the database, such as folder path and the creation time to the database.</p>
 
 
 
