@@ -4,6 +4,11 @@ before start to explain this porject please
 
 # install the following packages 
 <br />
-  1- go get github.com/go-sql-driver/mysql <br/>
-  2- go get github.com/labstack/echo <br/>
-  3- go get -u github.com/spf13/viper <br/>
+<ol>
+  </ol>
+  <li> go get github.com/go-sql-driver/mysql </li>
+  <li> go get github.com/labstack/echo </li>
+  <li> go get -u github.com/spf13/viper </li>
+<br>
+
+First of all let me speak about the solution ar
