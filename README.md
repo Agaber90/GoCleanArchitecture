@@ -9,8 +9,9 @@ before start to explain this porject please
   <li> go get github.com/go-sql-driver/mysql </li>
   <li> go get github.com/labstack/echo </li>
   <li> go get -u github.com/spf13/viper </li>
+  <li> go get github.com/pdfcrowd/pdfcrowd-go</li>
   </ol>
-<br>
+<br />
 
 <p>First of all let me speak about the solution architecture, the used is clean architecture with dependency injection.<p>
 <p>
@@ -22,3 +23,20 @@ before start to explain this porject please
     <li>imagehttphandler</li>
     </ol>
 <p>
+  
+# Model layer
+<p> Model layer is reposable to create a structs for our models the to be transfered to the database or bind the requet into it.<br/>
+<br />
+  
+# imagehandler
+<p>This contains the repositoris as well as the business logig, this divided into two folders, one called usecase that will handle all the busines logic, and the last one is called repository to handle the database operation </p>
+
+# middleware
+<p> This is to handle the crossorigin on the http request </p>
+
+# imagehttphandler
+<p> This is responsable to create the http request, this would take the a list of URLS then start to screenshot the urls and the image to the folder path, that would be add to the config.json file </P>
+
+
+
+  
