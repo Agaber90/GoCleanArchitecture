@@ -1,4 +1,4 @@
-# detectifyScreenshot
+# Screenshot using Golang with clean architecture
 This a Golang project to start take a screenshot form URLS using pdfcrowd API and save the images data to mysql database
 before start to explain this porject please
 
@@ -18,9 +18,9 @@ before start to explain this porject please
   This architecture has 4 layers
   <ol>
     <li> models</li>
-    <li>imagehandler</li>
-    <li>middleware</li>
-    <li>imagehttphandler</li>
+    <li> imagehandler </li>
+    <li> middleware </li>
+    <li> imagehttphandler </li>
     </ol>
 <p>
   
@@ -55,7 +55,4 @@ before start to explain this porject please
  <p> Actually I used this package as I am not aware of a full browswer engine that written in GO and it has taken many times for investigation as you have mentioned that better to complete the task using Golang, I would have been to handle this using .NET and call it in Golang, but I have decided to complete it using the Golang. I would have been also to use headless chromes but it's not stright forword, that's why I used this package.</P>
  
 <p> After the screen have been taken, I moved it to a shared path folder with a UUID to create a unique name for the screenshot image, and then the Image data will be saved to the database, such as folder path and the creation time to the database.</p>
-
-
-# Please note that I add the Postman files to this project to start test it
   
