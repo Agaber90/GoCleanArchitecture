@@ -51,8 +51,7 @@ before start to explain this porject please
  <p> This helo to read the value form the configuration file for more info please check this url : https://github.com/spf13/viper </p>
  
  # pdfcrowd
- <p> This API will help us to take the URL and convert it to imagem and unfortunately this is not free I am using a trial, so I add the API user along with API key to start test my task </p>
- <p> Actually I used this package as I am not aware of a full browswer engine that written in GO and it has taken many times for investigation as you have mentioned that better to complete the task using Golang, I would have been to handle this using .NET and call it in Golang, but I have decided to complete it using the Golang. I would have been also to use headless chromes but it's not stright forword, that's why I used this package.</P>
- 
+ <p> This API will help us to take the URL and convert it to imagem and unfortunately this is not free I am using a trial </p>
+
 <p> After the screen have been taken, I moved it to a shared path folder with a UUID to create a unique name for the screenshot image, and then the Image data will be saved to the database, such as folder path and the creation time to the database.</p>
   
